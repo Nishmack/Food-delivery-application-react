@@ -25,10 +25,11 @@ const PlaceOrder = () => {
       </div>
       <input type="text" placeholder='phone' />
       </div>
+
     <div className="place-order-right">
     <div className="cart-total">
           <h2>Cart Totals</h2>
-          <div>
+        <div>
           <div className="cart-total-details">
               <p>Subtotal</p>
               <p>₹{getTotalCartAmount()}</p>

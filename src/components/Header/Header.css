@@ -56,5 +56,6 @@
   }
   .header-contents button{
     padding: 2vw 4vw;
+    margin: 8px;
   }
 }

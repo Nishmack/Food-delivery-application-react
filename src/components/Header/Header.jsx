@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react' //imports React, which is necessary for creating React components.
 import './Header.css'
-import { HashLink } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link';// imports the HashLink component from the react-router-hash-link library, which allows for smooth scrolling to anchor links within the application.
 
 const Header = () => {
   return (

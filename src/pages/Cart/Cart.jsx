@@ -1,11 +1,15 @@
 import React, { useContext } from 'react';
 import './Cart.css';
+//  import the StoreContext and useNavigate hook from react-router-dom for navigation.
+
 import { StoreContext } from '../../context/StoreContext';
 import { useNavigate } from 'react-router-dom';
 
 const Cart = () => {
+  //uses the useContext hook to access cartItems, food_list, removeFromCart, and getTotalCartAmount from StoreContext.
   const { cartItems, food_list, removeFromCart, getTotalCartAmount } = useContext(StoreContext);
   const navigate = useNavigate();
+  // initializes the useNavigate hook for navigation.when user click on proceed to checkout button it navigate to placeorder page
 
   
 
